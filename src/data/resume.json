@@ -1,0 +1,152 @@
+{
+  "personal_info": {
+    "name": "Aryan Walia",
+    "phone": "+91 7678531784",
+    "email": "ariyanwaliya@gmail.com",
+    "location": "India",
+    "socials": {
+        "linkedin": "https://www.linkedin.com/in/aryanw/",
+        "medium": "https://medium.com/@ariyanwaliya"
+    },
+    "headline": "Backend developer focused on reliable, scalable systems with strong interest in architecture and system design"
+  },
+  "work_experience": [
+    {
+      "company": "E Solutions",
+      "location": "Noida, Delhi",
+      "role": "Backend Developer",
+      "start_date": "2025-01",
+      "end_date": "Present",
+      "highlights": [
+        "Built a multi-tenant system from scratch including database design and overall architecture within 2 months",
+        "Ingested and parsed large in-network files (~500GB) using Airflow; designed architecture with Iceberg and Trino for optimized, compressed Parquet storage and querying"
+      ]
+    },
+    {
+      "company": "Ticketing and Support System",
+      "location": "Remote",
+      "role": "Freelance Software Developer",
+      "start_date": "2025-10",
+      "end_date": "2025-11",
+      "highlights": [
+        "Built a scalable, multi-tenant ticketing system with RBAC and automated assignment using Node.js, Express, MongoDB, Redis, BullMQ; served 200–250 users across 5+ teams",
+        "Engineered real-time notifications and messaging with Redis Pub/Sub, Socket.io, PostgreSQL handling 10k+ concurrent requests/min with horizontal scalability"
+      ]
+    }
+  ],
+  "skills": {
+    "backend": ["Node.js", "Django", "REST APIs", "Microservices", "Event-Driven Architecture"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Tarantool"],
+    "infrastructure_devops": ["Docker", "Nginx", "CI/CD"],
+    "observability": ["Pino", "Grafana", "Prometheus"],
+    "languages": ["Python", "JavaScript"],
+    "batch_stream_processing": ["Kafka", "Spark", "Flink"],
+    "ai_ml": ["Generative AI", "NLP", "LLM Fine-Tuning (LLaMA, OpenAI)", "OCR", "LangChain", "LangGraph", "LangSmith"]
+  },
+  "projects": [
+    {
+      "name": "System Design Articles",
+      "description": "Articles on system design for real-time video conferencing apps, rate limiters, and design patterns like the transaction outbox pattern."
+    },
+    {
+      "name": "Database Deep Dive Series",
+      "description": "Articles discussing OLTP vs OLAP, B-Trees vs LSM trees, CockroachDB, TarantoolDB, MVCC, and more."
+    },
+    {
+      "name": "AI Based File Management System",
+      "description": "Built an AI-powered document management system with Gemini Flash 2.0, OCR, and NLP to auto-classify 100+ files per minute."
+    },
+    {
+      "name": "Finetuning Llama",
+      "description": "Fine-tuned the LLaMA 2 7B pretrained model using parameter-efficient techniques such as LoRA and QLoRA on an SQL dataset."
+    }
+  ],
+  "education": {
+    "institution": "Guru Gobind Singh Indraprastha University (GGSIPU)",
+    "degree": "Bachelor of Technology",
+    "graduation_date": "2025-06",
+    "cgpa": 8.5
+  },
+  "articles": [
+    {
+      "title": "Intent, Queries, and Subscriptions: A Better Mental Model for Analytics UIs",
+      "description": "Proposes a structural mental model for designing more effective and responsive analytics user interfaces."
+    },
+    {
+      "title": "50 iPhones, 100k Users, and One Very Angry Database: Designing Flash Sales",
+      "description": "Discusses strategies for controlling database contention and handling high concurrency during flash sales."
+    },
+    {
+      "title": "PostgreSQL Write Path Explained: fsync, WAL, COPY, and Unlogged Tables",
+      "description": "Explains the internal journey of an INSERT operation in PostgreSQL, covering memory, WAL, and disk interactions."
+    },
+    {
+      "title": "Mongobleed : Deep Dive in the Memory Leak Vulnerability of MongoDB",
+      "description": "A detailed analysis of the 'Mongobleed' (CVE-2025–14847) memory leak vulnerability affecting MongoDB."
+    },
+    {
+      "title": "Hint Bits: The Tiny Flags That Make PostgreSQL Fast",
+      "description": "Explores how PostgreSQL uses 'hint bits' to bypass expensive transaction status checks and improve query performance."
+    },
+    {
+      "title": "Somewhere between Redis and Postgres: TarantoolDB",
+      "description": "An overview of TarantoolDB, examining its architecture and use cases as a hybrid between Redis and PostgreSQL."
+    },
+    {
+      "title": "Inside PostgreSQL: MVCC Internals, Page Bloat, Autovacuum, and VACUUM FULL Mechanics",
+      "description": "A deep dive into PostgreSQL's concurrency control (MVCC), the causes of page bloat, and how vacuuming works."
+    },
+    {
+      "title": "Inside CockroachDB: The Engineering Behind Serializable Transactions",
+      "description": "Unpacks the engineering decisions and mechanisms that allow CockroachDB to handle serializable transactions."
+    },
+    {
+      "title": "Shor's Algorithm: The Quantum Breakthrough That Shatters Encryption",
+      "description": "Explains Shor's Algorithm and its implications for breaking modern encryption standards."
+    },
+    {
+      "title": "Anatomy of a Cascading failure : AWS US East -1 (Oct 2025 ) outage",
+      "description": "A case study of the October 2025 AWS outage, analyzing the mechanics of cascading failures in distributed systems."
+    },
+    {
+      "title": "Lessons from the Trenches: Scaling Analytics with Trino",
+      "description": "Shares practical insights and lessons learned from scaling analytics infrastructure using Trino."
+    },
+    {
+      "title": "Taming the rush hour : TCP congestion control",
+      "description": "Explores how TCP congestion control manages data flow and prevents network collapse during high traffic."
+    },
+    {
+      "title": "Evolution of HTTP : 1.1 To 2 (Part 2)",
+      "description": "The second part of a series, detailing the technical shifts and improvements moving from HTTP/1.1 to HTTP/2."
+    },
+    {
+      "title": "Evolution of HTTP : 1 To 1.1 (Part-1)",
+      "description": "The first part of a series tracing the history and technical reasons behind the evolution from HTTP/1 to HTTP/1.1."
+    },
+    {
+      "title": "Streaming, Dictionaries, and Deltas: Lessons for Discord's WebSocket Optimizations",
+      "description": "Analyzes WebSocket optimizations and compression techniques, drawing lessons from Discord's architecture."
+    },
+    {
+      "title": "Tiny Packets, Big Delays: How Nagle's Algorithm Works",
+      "description": "Explains the logic behind Nagle's Algorithm and how it balances bandwidth efficiency with latency."
+    },
+    {
+      "title": "Why Configuration Is Code Too : Lessons from Klarna's Outage",
+      "description": "Argues for treating configuration with the same rigor as code, using Klarna's outage as a case study."
+    },
+    {
+      "title": "From Reads to Writes: Understanding B-Trees vs LSM Trees",
+      "description": "Compares the underlying data structures of databases (B-Trees vs. LSM Trees) and their impact on read/write performance."
+    },
+    {
+      "title": "OLTP vs OLAP: Breaking Down Transactional vs Analytical Systems",
+      "description": "Breaks down the fundamental differences between Online Transaction Processing and Online Analytical Processing systems."
+    },
+    {
+      "title": "From Fairness to Security: Building a Rate Limiter",
+      "description": "A guide to building rate limiters to protect applications from DoS attacks while ensuring fair usage."
+    }
+  ]
+}
