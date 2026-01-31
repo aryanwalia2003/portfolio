@@ -70,83 +70,108 @@
   "articles": [
     {
       "title": "Intent, Queries, and Subscriptions: A Better Mental Model for Analytics UIs",
-      "description": "Proposes a structural mental model for designing more effective and responsive analytics user interfaces."
+      "description": "Proposes a structural mental model for designing more effective and responsive analytics user interfaces.",
+      "link": "https://medium.com/@ariyanwaliya/intent-queries-and-subscriptions-a-better-mental-model-for-analytics-uis-30b1380cd932"
     },
     {
       "title": "50 iPhones, 100k Users, and One Very Angry Database: Designing Flash Sales",
-      "description": "Discusses strategies for controlling database contention and handling high concurrency during flash sales."
+      "description": "Discusses strategies for controlling database contention and handling high concurrency during flash sales.",
+      "link": "https://medium.com/@ariyanwaliya/50-iphones-100k-users-and-one-very-angry-database-designing-flash-sales-5a5c3a1cd8b0"
     },
     {
       "title": "PostgreSQL Write Path Explained: fsync, WAL, COPY, and Unlogged Tables",
-      "description": "Explains the internal journey of an INSERT operation in PostgreSQL, covering memory, WAL, and disk interactions."
+      "description": "Explains the internal journey of an INSERT operation in PostgreSQL, covering memory, WAL, and disk interactions.",
+      "link": "https://medium.com/@ariyanwaliya/postgresql-write-path-explained-fsync-wal-copy-and-unlogged-tables-8f4243e42292"
     },
     {
       "title": "Mongobleed : Deep Dive in the Memory Leak Vulnerability of MongoDB",
-      "description": "A detailed analysis of the 'Mongobleed' (CVE-2025–14847) memory leak vulnerability affecting MongoDB."
+      "description": "A detailed analysis of the 'Mongobleed' (CVE-2025–14847) memory leak vulnerability affecting MongoDB.",
+      "link": "https://medium.com/@ariyanwaliya/mongobleed-deep-dive-in-the-memory-leak-vulnerability-of-mongodb-8f5b36a111b0"
     },
     {
       "title": "Hint Bits: The Tiny Flags That Make PostgreSQL Fast",
-      "description": "Explores how PostgreSQL uses 'hint bits' to bypass expensive transaction status checks and improve query performance."
+      "description": "Explores how PostgreSQL uses 'hint bits' to bypass expensive transaction status checks and improve query performance.",
+      "link": "https://medium.com/@ariyanwaliya/hint-bits-the-tiny-flags-that-make-postgresql-fast-13a73a9268b4"
     },
     {
       "title": "Somewhere between Redis and Postgres: TarantoolDB",
-      "description": "An overview of TarantoolDB, examining its architecture and use cases as a hybrid between Redis and PostgreSQL."
+      "description": "An overview of TarantoolDB, examining its architecture and use cases as a hybrid between Redis and PostgreSQL.",
+      "link": "https://medium.com/@ariyanwaliya/somewhere-between-redis-and-postgres-tarantooldb-adcc1dc6bdd4"
     },
     {
       "title": "Inside PostgreSQL: MVCC Internals, Page Bloat, Autovacuum, and VACUUM FULL Mechanics",
-      "description": "A deep dive into PostgreSQL's concurrency control (MVCC), the causes of page bloat, and how vacuuming works."
+      "description": "A deep dive into PostgreSQL's concurrency control (MVCC), the causes of page bloat, and how vacuuming works.",
+      "link": "https://medium.com/@ariyanwaliya/inside-postgresql-mvcc-internals-page-bloat-autovacuum-and-vacuum-full-mechanics-b63a81dcb4c9"
     },
     {
       "title": "Inside CockroachDB: The Engineering Behind Serializable Transactions",
-      "description": "Unpacks the engineering decisions and mechanisms that allow CockroachDB to handle serializable transactions."
+      "description": "Unpacks the engineering decisions and mechanisms that allow CockroachDB to handle serializable transactions.",
+      "link": "https://medium.com/@ariyanwaliya/inside-cockroachdb-the-engineering-behind-serializable-transactions-8d2946e2de2c"
     },
     {
       "title": "Shor's Algorithm: The Quantum Breakthrough That Shatters Encryption",
-      "description": "Explains Shor's Algorithm and its implications for breaking modern encryption standards."
+      "description": "Explains Shor's Algorithm and its implications for breaking modern encryption standards.",
+      "link": "https://medium.com/@ariyanwaliya/shors-algorithm-the-quantum-breakthrough-that-shatters-encryption-37dd4db5ba53"
     },
     {
       "title": "Anatomy of a Cascading failure : AWS US East -1 (Oct 2025 ) outage",
-      "description": "A case study of the October 2025 AWS outage, analyzing the mechanics of cascading failures in distributed systems."
+      "description": "A case study of the October 2025 AWS outage, analyzing the mechanics of cascading failures in distributed systems.",
+      "link": "https://medium.com/@ariyanwaliya/anatomy-of-a-cascading-failure-aws-us-east-1-oct-2025-outage-d92a86daf1ac"
     },
     {
       "title": "Lessons from the Trenches: Scaling Analytics with Trino",
-      "description": "Shares practical insights and lessons learned from scaling analytics infrastructure using Trino."
+      "description": "Shares practical insights and lessons learned from scaling analytics infrastructure using Trino.",
+      "link": "https://medium.com/@ariyanwaliya/lessons-from-the-trenches-scaling-analytics-with-trino-17b70e1e3197"
     },
     {
       "title": "Taming the rush hour : TCP congestion control",
-      "description": "Explores how TCP congestion control manages data flow and prevents network collapse during high traffic."
+      "description": "Explores how TCP congestion control manages data flow and prevents network collapse during high traffic.",
+      "link": "https://medium.com/@ariyanwaliya/taming-the-rush-hour-tcp-congestion-control-b83c3c5f6bc0"
     },
     {
       "title": "Evolution of HTTP : 1.1 To 2 (Part 2)",
-      "description": "The second part of a series, detailing the technical shifts and improvements moving from HTTP/1.1 to HTTP/2."
+      "description": "The second part of a series, detailing the technical shifts and improvements moving from HTTP/1.1 to HTTP/2.",
+      "link": "https://medium.com/@ariyanwaliya/evolution-of-http-1-1-to-2-part-2-2e8215b79f53"
     },
     {
       "title": "Evolution of HTTP : 1 To 1.1 (Part-1)",
-      "description": "The first part of a series tracing the history and technical reasons behind the evolution from HTTP/1 to HTTP/1.1."
+      "description": "The first part of a series tracing the history and technical reasons behind the evolution from HTTP/1 to HTTP/1.1.",
+      "link": "https://medium.com/@ariyanwaliya/evolution-of-http-1-to-1-1-part-1-6806a3b1b350"
     },
     {
       "title": "Streaming, Dictionaries, and Deltas: Lessons for Discord's WebSocket Optimizations",
-      "description": "Analyzes WebSocket optimizations and compression techniques, drawing lessons from Discord's architecture."
+      "description": "Analyzes WebSocket optimizations and compression techniques, drawing lessons from Discord's architecture.",
+      "link": "https://medium.com/@ariyanwaliya/streaming-dictionaries-and-deltas-lessons-for-discords-websocket-optimizations-82b9c92ba00f"
     },
     {
       "title": "Tiny Packets, Big Delays: How Nagle's Algorithm Works",
-      "description": "Explains the logic behind Nagle's Algorithm and how it balances bandwidth efficiency with latency."
+      "description": "Explains the logic behind Nagle's Algorithm and how it balances bandwidth efficiency with latency.",
+      "link": "https://medium.com/@ariyanwaliya/tiny-packets-big-delays-how-nagles-algorithm-works-ef83203c4089"
     },
     {
       "title": "Why Configuration Is Code Too : Lessons from Klarna's Outage",
-      "description": "Argues for treating configuration with the same rigor as code, using Klarna's outage as a case study."
+      "description": "Argues for treating configuration with the same rigor as code, using Klarna's outage as a case study.",
+      "link": "https://medium.com/@ariyanwaliya/why-configuration-is-code-too-lessons-from-klarnas-outage-5d12a4c09d7f"
     },
     {
       "title": "From Reads to Writes: Understanding B-Trees vs LSM Trees",
-      "description": "Compares the underlying data structures of databases (B-Trees vs. LSM Trees) and their impact on read/write performance."
+      "description": "Compares the underlying data structures of databases (B-Trees vs. LSM Trees) and their impact on read/write performance.",
+      "link": "https://medium.com/@ariyanwaliya/from-reads-to-writes-understanding-b-trees-vs-lsm-trees-8eb494415152"
     },
     {
       "title": "OLTP vs OLAP: Breaking Down Transactional vs Analytical Systems",
-      "description": "Breaks down the fundamental differences between Online Transaction Processing and Online Analytical Processing systems."
+      "description": "Breaks down the fundamental differences between Online Transaction Processing and Online Analytical Processing systems.",
+      "link": "https://medium.com/@ariyanwaliya/oltp-vs-olap-breaking-down-transactional-vs-analytical-systems-5a6850ddeacd"
     },
     {
       "title": "From Fairness to Security: Building a Rate Limiter",
-      "description": "A guide to building rate limiters to protect applications from DoS attacks while ensuring fair usage."
+      "description": "A guide to building rate limiters to protect applications from DoS attacks while ensuring fair usage.",
+      "link": "https://medium.com/@ariyanwaliya/from-fairness-to-security-building-a-rate-limiter-a3623c4828de"
+    },
+    {
+      "title": "Video Calling Platform System Design: Zoom",
+      "description": "A guide to building a video calling platform like Zoom, covering aspects like real-time communication, scalability, and reliability.",
+      "link": "https://medium.com/@ariyanwaliya/video-calling-platform-system-design-zoom-c94a48cca205"
     }
   ]
 }

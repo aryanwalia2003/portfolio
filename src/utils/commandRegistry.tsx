@@ -4,6 +4,8 @@ import { Skills } from '../components/commands/Skills';
 import { Projects } from '../components/commands/Projects';
 import { Experience } from '../components/commands/Experience';
 import { About } from '../components/commands/About';
+import { Summary } from '../components/commands/Summary';
+import { MatrixEffect } from '../components/commands/MatrixEffect';
 import resumeData from '../data/resume.json';
 
 // Helper types
@@ -37,7 +39,9 @@ export const processCommand = (input: string) => {
                     <div><span className="text-primary font-bold w-24 inline-block">skills</span> <span className="text-white/60">Technical capabilities</span></div>
                     <div><span className="text-primary font-bold w-24 inline-block">projects</span> <span className="text-white/60">My built works</span></div>
                     <div><span className="text-primary font-bold w-24 inline-block">articles</span> <span className="text-white/60">My writings</span></div>
+                    <div><span className="text-primary font-bold w-24 inline-block">summary</span> <span className="text-white/60">Resume view</span></div>
                     <div><span className="text-primary font-bold w-24 inline-block">contact</span> <span className="text-white/60">Get in touch</span></div>
+                    <div><span className="text-primary font-bold w-24 inline-block">matrix</span> <span className="text-white/60">Enter the Matrix</span></div>
                     <div><span className="text-primary font-bold w-24 inline-block">ls</span> <span className="text-white/60">List directory contents</span></div>
                     <div><span className="text-primary font-bold w-24 inline-block">cd [dir]</span> <span className="text-white/60">Change directory</span></div>
                     <div><span className="text-primary font-bold w-24 inline-block">cat [file]</span> <span className="text-white/60">View file content</span></div>
@@ -74,6 +78,10 @@ export const processCommand = (input: string) => {
         addEntry({ type: 'output', content: <Experience /> });
         break;
 
+    case 'summary':
+        addEntry({ type: 'output', content: <Summary /> });
+        break;
+
     case 'articles':
         addEntry({ 
             type: 'output', 
@@ -82,7 +90,14 @@ export const processCommand = (input: string) => {
                     <div className="text-white/90 mb-4">Here are some of my articles:</div>
                     {(resumeData.articles || []).map((article: any, index: number) => (
                         <div key={index} className="mb-2">
-                            <div className="text-primary font-bold">{article.title}</div>
+                            <a 
+                                href={article.link} 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className="text-primary font-bold hover:underline cursor-pointer block"
+                            >
+                                {article.title}
+                            </a>
                             <div className="text-white/60 text-sm">{article.description}</div>
                         </div>
                     ))}
@@ -199,6 +214,34 @@ export const processCommand = (input: string) => {
              }
              addEntry({ type: 'output', content: displayContent });
         }
+        break;
+
+    case 'reboot':
+        window.location.reload();
+        break;
+
+    case 'sudo':
+        addEntry({ type: 'output', content: 'Permission denied: You are not Aryan. (And even if you were, I wouldn\'t let you.)' });
+        break;
+
+    case 'matrix':
+        addEntry({ type: 'output', content: <MatrixEffect /> });
+        break;
+
+    case 'rm':
+        if (args[0] === '-rf' && args[1] === '/') {
+            addEntry({ type: 'output', content: <div className="text-red-500 font-bold">I'm sorry, Dave. I'm afraid I can't do that.</div> });
+        } else {
+            addEntry({ type: 'output', content: 'Nice try, but I like these files where they are.' });
+        }
+        break;
+
+    case 'vi':
+    case 'vim':
+    case 'nvim':
+    case 'emacs':
+    case 'nano':
+        addEntry({ type: 'output', content: 'Why use text editors when you have VS Code? (Just kidding, but you can\'t open them here.)' });
         break;
 
     default:
