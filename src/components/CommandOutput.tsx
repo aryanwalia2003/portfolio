@@ -1,5 +1,6 @@
 import React from 'react';
 import type { CommandEntry } from '../store/useTerminalStore';
+import { Typewriter } from './Typewriter';
 
 export const CommandOutput: React.FC<{ entry: CommandEntry }> = ({ entry }) => {
   if (entry.type === 'command') {
@@ -14,8 +15,13 @@ export const CommandOutput: React.FC<{ entry: CommandEntry }> = ({ entry }) => {
   return (
     <div className="mb-6 pl-0 md:pl-4 w-full overflow-hidden">
       {typeof entry.content === 'string' ? (
-         // Handle basic text output ensuring whitespace is preserved
-        <div className="whitespace-pre-wrap break-words text-primary/90">{entry.content}</div>
+         // Use Typewriter for string content
+        <div className="text-primary/90">
+             <Typewriter 
+                text={entry.content} 
+                speed={entry.content.length > 100 ? 5 : 20} 
+             />
+        </div>
       ) : (
         // Render detailed component output (React Node)
         entry.content
