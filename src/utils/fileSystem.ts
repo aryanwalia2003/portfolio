@@ -48,7 +48,7 @@ const createFileSystem = (): FileSystemNode => {
               },
               'resume.pdf': {
                 type: 'link',
-                content: 'https://drive.google.com/file/d/1d1ZLugiEBHI0QMUa449OGba7el7NGany/view?usp=drive_link'
+                content: 'https://drive.google.com/file/d/1Cvwhk9Gsi34IpTMH8wZah1hmLOSVdhVd/view?usp=sharing'
               },
               'articles.txt': {
                 type: 'file',
